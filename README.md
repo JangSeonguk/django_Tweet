@@ -9,5 +9,4 @@ This is a Django-based web application with Nomadcoders.
 ├── tweets            # Contains the models, views, and templates for managing tweets and likes.  
 ├── users             # Contains user models, authentication, and profile management.  
 ├── db.sqlite3        # SQLite database file.  
-├── manage.py         # Django project management file.  
-└── .gitignore        # Git ignore file to exclude specific files from the repository.  
+└── manage.py         # Django project management file.  
