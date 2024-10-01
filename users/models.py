@@ -16,7 +16,7 @@ class User(AbstractUser):
         WON = "won", "Korean Won"
         USD = "usd", "Dolar"
 
-    first_name = models.CharField(
+    first_name = models.edit(
         max_length=150,
         editable=False,
     )
