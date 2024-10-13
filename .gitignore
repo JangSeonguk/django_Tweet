@@ -1,1 +1,5 @@
 myenv
+*sqlite3
+*.png
+__pycache__
+

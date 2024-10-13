@@ -1,0 +1,10 @@
+<h3>{{title}}</h3>
+<ul>
+  {% for tweet in tweets %}
+  <li>
+    <a href="/tweets/{{tweet.id}}">
+      <div>{{tweet.payload}}</div>
+    </a>
+  </li>
+  {% endfor %}
+</ul>
